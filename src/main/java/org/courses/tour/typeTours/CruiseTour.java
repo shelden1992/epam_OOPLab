@@ -3,6 +3,8 @@ package org.courses.tour.typeTours;
 import org.courses.tour.city.Budapest;
 import org.courses.tour.city.City;
 import org.courses.tour.city.Istanbul;
+import org.courses.tour.otherParametrs.TypeFood;
+import org.courses.tour.transport.Transport;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -11,6 +13,10 @@ public class CruiseTour extends Tour {
 
     public CruiseTour() {
         super(null, null, 2900, null, 0, "Cruise Tour", null);
+    }
+
+    public CruiseTour(TypeFood typeFood, Transport transport, double taxForTour, Map<Integer, City> cities, int day, String name, City city) {
+        super(typeFood, transport, taxForTour, cities, day, name, city);
     }
 
     @Override

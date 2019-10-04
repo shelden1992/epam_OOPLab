@@ -1,4 +1,4 @@
-package org.courses.tour.utils.selectionLogic;
+package org.courses.tour.utils.show;
 
 import org.courses.tour.transport.Transport;
 import org.courses.tour.typeTours.Tour;

@@ -1,4 +1,4 @@
-package org.courses.tour.utils.selectionLogic;
+package org.courses.tour.utils.creationLogic;
 
 import org.courses.tour.otherParametrs.TypeFood;
 import org.courses.tour.typeTours.Tour;

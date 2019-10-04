@@ -18,8 +18,6 @@ public abstract class City {
         this.distance = distance;
     }
 
-//
-
     public Map<Integer, Transport> getTransportMap() {
         return transportMap;
     }

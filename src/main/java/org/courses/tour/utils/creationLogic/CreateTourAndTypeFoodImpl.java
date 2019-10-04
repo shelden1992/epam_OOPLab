@@ -1,10 +1,15 @@
-package org.courses.tour.utils.selectionLogic;
+package org.courses.tour.utils.creationLogic;
 
 import org.courses.tour.otherParametrs.TypeFood;
 import org.courses.tour.typeTours.*;
+import org.courses.tour.utils.show.ShowingTour;
+import org.courses.tour.utils.show.ShowingTypeFood;
 
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Set;
+
+import static org.courses.tour.utils.ConsoleComunication.showMessage;
 
 public class CreateTourAndTypeFoodImpl implements CreationTourAndTypeOfFood {
 
@@ -30,5 +35,6 @@ public class CreateTourAndTypeFoodImpl implements CreationTourAndTypeOfFood {
         integerTypeFoodMap.put(4, TypeFood.ROOM_ONLY);
         return integerTypeFoodMap;
     }
+
 
 }
