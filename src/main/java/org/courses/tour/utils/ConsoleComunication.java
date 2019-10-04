@@ -11,7 +11,7 @@ public class ConsoleComunication {
         System.out.println(message);
     }
 
-    public static int enterMessageForTour(int size) {
+    public static int chooseSomeEntity(int maxChoose) {
         int i = 0;
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
         try {
@@ -19,13 +19,13 @@ public class ConsoleComunication {
             String scan = "";
             while (!(scan = bufferedReader.readLine()).isEmpty()) {
                 try {
-                    if ((i = Integer.parseInt(scan)) > size || i <= 0) {
-                        System.out.println("Please, enter number 1-" + size);
+                    if ((i = Integer.parseInt(scan)) > maxChoose || i <= 0) {
+                        System.out.println("Please, enter number 1-" + maxChoose);
                     } else {
                         break;
                     }
                 } catch (NumberFormatException e) {
-                    System.out.println("Please, enter number 1-" + size);
+                    System.out.println("Please, enter number 1-" + maxChoose);
                 }
             }
         } catch (IOException e) {
