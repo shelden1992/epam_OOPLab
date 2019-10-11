@@ -1,10 +1,13 @@
 package org.courses.tour.utils;
 
+import org.apache.log4j.Logger;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
 public class ConsoleComunication {
+    public static final Logger LOG = Logger.getLogger(ConsoleComunication.class);
     private static final int MAX_DAYS = 30;
 
     private static BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
@@ -27,11 +30,12 @@ public class ConsoleComunication {
                         break;
                     }
                 } catch (NumberFormatException e) {
+                    LOG.error("Enter number 1-" + maxChoose, e);
                     System.out.println("Please, enter number 1-" + maxChoose);
                 }
             }
         } catch (IOException e) {
-            e.printStackTrace();
+            LOG.error(e);
 
         }
         return i;
@@ -49,14 +53,16 @@ public class ConsoleComunication {
 
     static public void close() {
         try {
+
             bufferedReader.close();
         } catch (IOException e) {
-            e.printStackTrace();
+            LOG.error(e);
         } finally {
             try {
                 bufferedReader.close();
+                LOG.info("Buffered closed");
             } catch (IOException e) {
-                e.printStackTrace();
+                LOG.error(e);
             }
         }
     }

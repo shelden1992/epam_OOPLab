@@ -2,15 +2,14 @@ package org.courses.tour.utils.creationLogic;
 
 import org.courses.tour.otherParametrs.TypeFood;
 import org.courses.tour.typeTours.*;
-import org.courses.tour.utils.show.ShowingTour;
-import org.courses.tour.utils.show.ShowingTypeFood;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
 
+import javax.annotation.Resource;
 import java.util.HashMap;
 import java.util.Map;
-import java.util.Set;
 
-import static org.courses.tour.utils.ConsoleComunication.showMessage;
-
+@Resource
 public class CreateTourAndTypeFoodImpl implements CreationTourAndTypeOfFood {
 
 

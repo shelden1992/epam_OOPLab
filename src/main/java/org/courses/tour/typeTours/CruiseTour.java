@@ -5,6 +5,8 @@ import org.courses.tour.city.City;
 import org.courses.tour.city.Istanbul;
 import org.courses.tour.otherParametrs.TypeFood;
 import org.courses.tour.transport.Transport;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.Bean;
 
 import java.util.HashMap;
 import java.util.Map;

@@ -1,0 +1,8 @@
+INFO main org.courses.tour.TourAgency - Start application
+INFO main org.courses.tour.service.AskForTourService -   Tour choose = Recreation Tour
+INFO main org.courses.tour.service.AskForCityService - Choose cite = Milan
+INFO main org.courses.tour.service.AskForTransportService - Choose transport = Bus
+INFO main org.courses.tour.service.AskForFoodService - Choose TypeFood = ROOM_ONLY
+INFO main org.courses.tour.service.AskForDayService - Choose days = 5
+INFO main org.courses.tour.service.CalculateService - Total price = 17510.0
+INFO main org.courses.tour.TourAgency - Finish application
