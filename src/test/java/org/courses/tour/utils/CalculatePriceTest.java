@@ -1,7 +1,7 @@
 package org.courses.tour.utils;
 
 import org.courses.tour.city.Budapest;
-import org.courses.tour.otherParametrs.TypeFood;
+import org.courses.tour.otherParametrs.FoodType;
 import org.courses.tour.transport.Bus;
 import org.courses.tour.typeTours.CruiseTour;
 import org.junit.Before;
@@ -19,7 +19,7 @@ public class CalculatePriceTest {
 
     @Before
     public void setUp() {
-        tour = new CruiseTour(TypeFood.ROOM_ONLY, new Bus(100), 1000.0, null, 1, "", new Budapest());
+        tour = new CruiseTour(FoodType.ROOM_ONLY, new Bus(100), 1000.0, null, 1, "", new Budapest());
         calculatePrice = new CalculatePrice(tour);
     }
 

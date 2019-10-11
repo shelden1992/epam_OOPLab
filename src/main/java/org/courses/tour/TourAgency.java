@@ -2,7 +2,7 @@ package org.courses.tour;
 
 import org.apache.log4j.Logger;
 import org.courses.tour.city.City;
-import org.courses.tour.otherParametrs.TypeFood;
+import org.courses.tour.otherParametrs.FoodType;
 import org.courses.tour.service.*;
 import org.courses.tour.transport.Transport;
 import org.courses.tour.typeTours.Tour;
@@ -42,9 +42,9 @@ public class TourAgency implements CommandLineRunner {
         Tour tour = askForTourService.askForTour();
         City city = askForCityService.askForCity(tour);
         Transport transport = askForTransport.askForTransport(city);
-        TypeFood typeFood = askForFoodService.askForFood();
+        FoodType foodType = askForFoodService.askForFood();
         int day = askForDayService.askForDay();
-        Tour build = tour.newBuilder().setDay(day).setTypeFood(typeFood).setCity(city).setTransport(transport).build();
+        Tour build = tour.newBuilder().setDay(day).setTypeFood(foodType).setCity(city).setTransport(transport).build();
         showMessage(String.valueOf(build));
         new CalculateService().calculate(build);
         ConsoleComunication.close();

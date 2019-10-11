@@ -1,9 +1,7 @@
 package org.courses.tour.utils.creationLogic;
 
-import org.courses.tour.otherParametrs.TypeFood;
+import org.courses.tour.otherParametrs.FoodType;
 import org.courses.tour.typeTours.*;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 import javax.annotation.Resource;
 import java.util.HashMap;
@@ -25,13 +23,13 @@ public class CreateTourAndTypeFoodImpl implements CreationTourAndTypeOfFood {
     }
 
     @Override
-    public Map<Integer, TypeFood> creationTypeFood() {
-        Map<Integer, TypeFood> integerTypeFoodMap = new HashMap<>();
-        integerTypeFoodMap.put(1, TypeFood.ALL_INCLUSIVE);
-        integerTypeFoodMap.put(2, TypeFood.FULL_BOARD);
-        integerTypeFoodMap.put(3, TypeFood.HALF_BOARD);
-        integerTypeFoodMap.put(5, TypeFood.BED_AND_BREAKFAST);
-        integerTypeFoodMap.put(4, TypeFood.ROOM_ONLY);
+    public Map<Integer, FoodType> creationTypeFood() {
+        Map<Integer, FoodType> integerTypeFoodMap = new HashMap<>();
+        integerTypeFoodMap.put(1, FoodType.ALL_INCLUSIVE);
+        integerTypeFoodMap.put(2, FoodType.FULL_BOARD);
+        integerTypeFoodMap.put(3, FoodType.HALF_BOARD);
+        integerTypeFoodMap.put(5, FoodType.BED_AND_BREAKFAST);
+        integerTypeFoodMap.put(4, FoodType.ROOM_ONLY);
         return integerTypeFoodMap;
     }
 

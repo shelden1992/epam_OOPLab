@@ -1,14 +1,14 @@
 package org.courses.tour.typeTours;
 
 import org.courses.tour.city.City;
-import org.courses.tour.otherParametrs.TypeFood;
+import org.courses.tour.otherParametrs.FoodType;
 import org.courses.tour.transport.Transport;
 
 import java.util.Map;
 import java.util.StringJoiner;
 
 public abstract class Tour {
-    protected TypeFood typeFood;
+    protected FoodType foodType;
     protected Transport transport;
     protected double taxForTour;
     protected Map<Integer, City> cities;
@@ -20,8 +20,8 @@ public abstract class Tour {
     public Tour() {
     }
 
-    public Tour(TypeFood typeFood, Transport transport, double taxForTour, Map<Integer, City> cities, int day, String name, City city) {
-        this.typeFood = typeFood;
+    public Tour(FoodType foodType, Transport transport, double taxForTour, Map<Integer, City> cities, int day, String name, City city) {
+        this.foodType = foodType;
         this.transport = transport;
         this.taxForTour = taxForTour;
         this.cities = cities;
@@ -44,19 +44,19 @@ public abstract class Tour {
         return new StringJoiner(", ", Tour.class.getSimpleName() + "[", "]")
                 .add("city=" + city)
                 .add("transport=" + transport)
-                .add("typeFood=" + typeFood)
+                .add("foodType=" + foodType)
                 .add("taxForTour=" + taxForTour)
                 .add("day=" + day)
                 .add("name='" + name + "'")
                 .toString();
     }
 
-    public TypeFood getTypeFood() {
-        return typeFood;
+    public FoodType getFoodType() {
+        return foodType;
     }
 
-    public void setTypeFood(TypeFood typeFood) {
-        this.typeFood = typeFood;
+    public void setFoodType(FoodType foodType) {
+        this.foodType = foodType;
     }
 
     public Transport getTransport() {
@@ -114,8 +114,8 @@ public abstract class Tour {
             return this;
         }
 
-        public Builder setTypeFood(TypeFood typeFood) {
-            Tour.this.setTypeFood(typeFood);
+        public Builder setTypeFood(FoodType foodType) {
+            Tour.this.setFoodType(foodType);
             return this;
         }
 
