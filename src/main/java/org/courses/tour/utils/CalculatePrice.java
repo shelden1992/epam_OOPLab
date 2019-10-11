@@ -1,11 +1,13 @@
 package org.courses.tour.utils;
 
+import org.apache.log4j.Logger;
 import org.courses.tour.city.City;
 import org.courses.tour.otherParametrs.TypeFood;
 import org.courses.tour.transport.Transport;
 import org.courses.tour.typeTours.Tour;
 
 public class CalculatePrice {
+    public static final  Logger LOG = Logger.getLogger(CalculatePrice.class);
     private static final int CITY_COEFFICIENT = 1000;
     private City city;
     private Transport transport;
@@ -23,9 +25,9 @@ public class CalculatePrice {
 
     public double calculateTour() {
 
-        double v = day * (transport.getCost() + city.getDistance() / CITY_COEFFICIENT + tour.getTaxForTour());
-        double v1 = v * typeFood.getPriceСoefficient();
-        return v + v1;
+        double totalPrice = day * (transport.getCost() + city.getDistance() / CITY_COEFFICIENT + tour.getTaxForTour());
+        double v1 = totalPrice * typeFood.getPriceСoefficient();
+        return totalPrice + v1;
 
 
     }
