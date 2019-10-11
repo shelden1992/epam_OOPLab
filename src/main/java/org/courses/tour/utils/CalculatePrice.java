@@ -7,6 +7,7 @@ import org.courses.tour.transport.Transport;
 import org.courses.tour.typeTours.Tour;
 
 public class CalculatePrice {
+    public static final  Logger LOG = Logger.getLogger(CalculatePrice.class);
     private static final int CITY_COEFFICIENT = 1000;
     private City city;
     private Transport transport;
