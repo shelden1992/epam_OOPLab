@@ -13,12 +13,14 @@ public class ShowingEntityImpl implements ShowingCity, ShowingTransport, Showing
     @Override
     public void showCity(Map<Integer, City> city) {
         city.forEach((key, value) -> showMessage(key + " " + value.getName()));
+
     }
 
 
     @Override
     public void showTransport(Map<Integer, Transport> integerTourMap) {
         integerTourMap.forEach((key, value) -> showMessage(key + " " + value.getName()));
+
     }
 
 
@@ -32,5 +34,6 @@ public class ShowingEntityImpl implements ShowingCity, ShowingTransport, Showing
     @Override
     public void showTypeFood(Map<Integer, FoodType> integerTypeFoodMap) {
         integerTypeFoodMap.forEach((key, value) -> showMessage(key + " " + value.toString()));
+
     }
 }
