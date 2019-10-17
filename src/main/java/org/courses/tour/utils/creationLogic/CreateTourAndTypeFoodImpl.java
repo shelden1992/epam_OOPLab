@@ -1,17 +1,14 @@
 package org.courses.tour.utils.creationLogic;
 
+import org.apache.log4j.Logger;
 import org.courses.tour.otherParametrs.TypeFood;
 import org.courses.tour.typeTours.*;
-import org.courses.tour.utils.show.ShowingTour;
-import org.courses.tour.utils.show.ShowingTypeFood;
 
 import java.util.HashMap;
 import java.util.Map;
-import java.util.Set;
-
-import static org.courses.tour.utils.ConsoleComunication.showMessage;
 
 public class CreateTourAndTypeFoodImpl implements CreationTourAndTypeOfFood {
+    public static final Logger LOG = Logger.getLogger(CreateTourAndTypeFoodImpl.class);
 
 
     @Override
@@ -22,6 +19,7 @@ public class CreateTourAndTypeFoodImpl implements CreationTourAndTypeOfFood {
         integerTourMap.put(3, new RecreationTour());
         integerTourMap.put(4, new ShoppingTour());
         integerTourMap.put(5, new TreatmentTour());
+        LOG.debug("IntegerTourMap was initialization");
         return integerTourMap;
     }
 
@@ -33,6 +31,7 @@ public class CreateTourAndTypeFoodImpl implements CreationTourAndTypeOfFood {
         integerTypeFoodMap.put(3, TypeFood.HALF_BOARD);
         integerTypeFoodMap.put(5, TypeFood.BED_AND_BREAKFAST);
         integerTypeFoodMap.put(4, TypeFood.ROOM_ONLY);
+        LOG.debug("IntegerTypeFoodMap was initialization");
         return integerTypeFoodMap;
     }
 

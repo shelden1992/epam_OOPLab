@@ -1,5 +1,6 @@
 package org.courses.tour;
 
+import org.apache.log4j.Logger;
 import org.courses.tour.city.City;
 import org.courses.tour.otherParametrs.TypeFood;
 import org.courses.tour.service.*;
@@ -10,8 +11,10 @@ import org.courses.tour.utils.ConsoleComunication;
 import static org.courses.tour.utils.ConsoleComunication.showMessage;
 
 public class TourAgency {
-    public static void main(String[] args) {
+    public static final Logger LOG = Logger.getLogger(TourAgency.class);
 
+    public static void main(String[] args) {
+        LOG.info("Start application");
         Tour tour = new AskForTourService().askForTour();
         City city = new AskForCityService().askForCity(tour);
         Transport transport = new AskForTransportService().askForTransport(city);
@@ -21,5 +24,6 @@ public class TourAgency {
         showMessage(String.valueOf(build));
         new CalculateService().calculate(build);
         ConsoleComunication.close();
+        LOG.info("Finish application");
     }
 }

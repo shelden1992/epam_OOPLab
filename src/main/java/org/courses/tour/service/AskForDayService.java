@@ -1,12 +1,16 @@
 package org.courses.tour.service;
 
+import org.apache.log4j.Logger;
+
 import static org.courses.tour.utils.ConsoleComunication.chooseDay;
-import static org.courses.tour.utils.ConsoleComunication.chooseSomeEntity;
 
 public class AskForDayService {
-
+    private static final Logger LOG = Logger.getLogger(AskForCityService.class);
 
     public int askForDay() {
-         return chooseDay();
+
+        int days = chooseDay();
+        LOG.info("Choose days = " + days);
+        return days;
     }
 }

@@ -12,8 +12,10 @@
 
 .idea
 *.iml
+.log
 
 .classpath
 .project
 .settings/
+.logs/
 target/
