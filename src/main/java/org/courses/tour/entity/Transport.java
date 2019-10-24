@@ -1,5 +1,7 @@
 package org.courses.tour.entity;
 
+import java.util.StringJoiner;
+
 public class Transport {
     private int idTransport;
     private String nameTransport;
@@ -23,5 +25,13 @@ public class Transport {
 
     public void setNameTransport(String nameTransport) {
         this.nameTransport = nameTransport;
+    }
+
+    @Override
+    public String toString() {
+        return new StringJoiner(", ", Transport.class.getSimpleName() + "[", "]")
+                .add("idTransport=" + idTransport)
+                .add("nameTransport='" + nameTransport + "'")
+                .toString();
     }
 }

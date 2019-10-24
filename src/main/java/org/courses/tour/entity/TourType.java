@@ -1,17 +1,18 @@
 package org.courses.tour.entity;
 
 import java.util.List;
+import java.util.StringJoiner;
 
-public class Tour_type {
+public class TourType {
     private int idTour;
     private String nameTour;
     private int days;
-    private int price;
-    private Food_type foodType;
+    private double price;
+    private FoodType foodType;
     private Transport transport;
     private List<City> cities;
 
-    public Tour_type(int idTour, String nameTour, int days, int price, Food_type foodType, Transport transport, List<City> cities) {
+    public TourType(int idTour, String nameTour, int days, double price, FoodType foodType, Transport transport, List<City> cities) {
         this.idTour = idTour;
         this.nameTour = nameTour;
         this.days = days;
@@ -37,6 +38,19 @@ public class Tour_type {
         this.nameTour = nameTour;
     }
 
+    @Override
+    public String toString() {
+        return new StringJoiner(", ", TourType.class.getSimpleName() + "[", "]")
+                .add("idTour=" + idTour)
+                .add("nameTour='" + nameTour + "'")
+                .add("days=" + days)
+                .add("price=" + price)
+                .add("foodType=" + foodType)
+                .add("transport=" + transport)
+                .add("cities=" + cities)
+                .toString();
+    }
+
     public int getDays() {
         return days;
     }
@@ -45,19 +59,19 @@ public class Tour_type {
         this.days = days;
     }
 
-    public int getPrice() {
+    public double getPrice() {
         return price;
     }
 
-    public void setPrice(int price) {
+    public void setPrice(double price) {
         this.price = price;
     }
 
-    public Food_type getFoodType() {
+    public FoodType getFoodType() {
         return foodType;
     }
 
-    public void setFoodType(Food_type foodType) {
+    public void setFoodType(FoodType foodType) {
         this.foodType = foodType;
     }
 

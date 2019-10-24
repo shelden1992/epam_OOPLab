@@ -1,16 +1,25 @@
 package org.courses.tour.entity;
 
 import java.util.List;
+import java.util.StringJoiner;
 
 public class City {
+    private int idCity;
     private String nameCity;
-    private double distance;
     private List<Transport> transports;
 
-    public City(String nameCity, double distance, List<Transport> transports) {
+    public City(int idCity, String nameCity, List<Transport> transports) {
+        this.idCity = idCity;
         this.nameCity = nameCity;
-        this.distance = distance;
         this.transports = transports;
+    }
+
+    public int getIdCity() {
+        return idCity;
+    }
+
+    public void setIdCity(int idCity) {
+        this.idCity = idCity;
     }
 
     public String getNameCity() {
@@ -21,12 +30,13 @@ public class City {
         this.nameCity = nameCity;
     }
 
-    public double getDistance() {
-        return distance;
-    }
-
-    public void setDistance(double distance) {
-        this.distance = distance;
+    @Override
+    public String toString() {
+        return new StringJoiner(", ", City.class.getSimpleName() + "[", "]")
+                .add("idCity=" + idCity)
+                .add("nameCity='" + nameCity + "'")
+                .add("transports=" + transports)
+                .toString();
     }
 
     public List<Transport> getTransports() {

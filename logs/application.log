@@ -1,0 +1,293 @@
+DEBUG main org.courses.tour.dao.CityDao - Try create entity = Pampan idEntity = 7
+DEBUG main org.courses.tour.dao.CityDao$CityTransportDao - Create transport dependency with city = Pampan
+DEBUG main org.courses.tour.dao.CityDao$CityTransportDao - Delete transport dependency with city = Pampan
+DEBUG main org.courses.tour.dao.CityDao - Try delete entity = Pampan idEntity = 7
+DEBUG main org.courses.tour.dao.CityDao - Try update entity = Pampan idEntity = 7 where id =1
+ERROR main org.courses.tour.dao.AbstractDao - Exception while create entity
+ERROR main org.courses.tour.dao.AbstractDao - Exception while create entity
+ERROR main org.courses.tour.dao.AbstractDao - Exception while create entity
+ERROR main org.courses.tour.dao.AbstractDao - Exception while create entity
+DEBUG main org.courses.tour.dao.FoodTypeDao - Get FoodType with name = ALL INCLUSIVE and id = 1
+DEBUG main org.courses.tour.dao.TransportDao - Get Transport with name = Ship and id = 4
+DEBUG main org.courses.tour.dao.CityDao$CityTransportDao - Get all entity size = 3
+DEBUG main org.courses.tour.dao.CityDao$CityTransportDao - Get all entity size = 1
+DEBUG main org.courses.tour.dao.FoodTypeDao - Get FoodType with name = FULL BOARD and id = 2
+DEBUG main org.courses.tour.dao.TransportDao - Get Transport with name = Airplane and id = 1
+DEBUG main org.courses.tour.dao.CityDao$CityTransportDao - Get all entity size = 3
+DEBUG main org.courses.tour.dao.CityDao$CityTransportDao - Get all entity size = 1
+DEBUG main org.courses.tour.dao.CityDao$CityTransportDao - Get all entity size = 2
+DEBUG main org.courses.tour.dao.CityDao$CityTransportDao - Get all entity size = 1
+DEBUG main org.courses.tour.dao.CityDao$CityTransportDao - Get all entity size = 0
+DEBUG main org.courses.tour.dao.CityDao$CityTransportDao - Get all entity size = 0
+DEBUG main org.courses.tour.dao.FoodTypeDao - Get FoodType with name = HALF BOARD and id = 3
+DEBUG main org.courses.tour.dao.TransportDao - Get Transport with name = Airplane and id = 1
+DEBUG main org.courses.tour.dao.CityDao$CityTransportDao - Get all entity size = 3
+DEBUG main org.courses.tour.dao.CityDao$CityTransportDao - Get all entity size = 1
+DEBUG main org.courses.tour.dao.CityDao$CityTransportDao - Get all entity size = 2
+DEBUG main org.courses.tour.dao.CityDao$CityTransportDao - Get all entity size = 1
+DEBUG main org.courses.tour.dao.CityDao$CityTransportDao - Get all entity size = 0
+DEBUG main org.courses.tour.dao.FoodTypeDao - Get FoodType with name = BED AND BREAKFAST and id = 4
+DEBUG main org.courses.tour.dao.TransportDao - Get Transport with name = Airplane and id = 1
+DEBUG main org.courses.tour.dao.CityDao$CityTransportDao - Get all entity size = 3
+DEBUG main org.courses.tour.dao.CityDao$CityTransportDao - Get all entity size = 2
+DEBUG main org.courses.tour.dao.FoodTypeDao - Get FoodType with name = BED AND BREAKFAST and id = 4
+DEBUG main org.courses.tour.dao.TransportDao - Get Transport with name = Airplane and id = 1
+DEBUG main org.courses.tour.dao.CityDao$CityTransportDao - Get all entity size = 0
+DEBUG main org.courses.tour.dao.FoodTypeDao - Get FoodType with name = ALL INCLUSIVE and id = 1
+DEBUG main org.courses.tour.dao.TransportDao - Get Transport with name = Ship and id = 4
+DEBUG main org.courses.tour.dao.CityDao$CityTransportDao - Get all entity size = 3
+DEBUG main org.courses.tour.dao.CityDao$CityTransportDao - Get all entity size = 1
+DEBUG main org.courses.tour.dao.FoodTypeDao - Get FoodType with name = FULL BOARD and id = 2
+DEBUG main org.courses.tour.dao.TransportDao - Get Transport with name = Airplane and id = 1
+DEBUG main org.courses.tour.dao.CityDao$CityTransportDao - Get all entity size = 3
+DEBUG main org.courses.tour.dao.CityDao$CityTransportDao - Get all entity size = 1
+DEBUG main org.courses.tour.dao.CityDao$CityTransportDao - Get all entity size = 2
+DEBUG main org.courses.tour.dao.CityDao$CityTransportDao - Get all entity size = 1
+DEBUG main org.courses.tour.dao.CityDao$CityTransportDao - Get all entity size = 0
+DEBUG main org.courses.tour.dao.CityDao$CityTransportDao - Get all entity size = 0
+DEBUG main org.courses.tour.dao.FoodTypeDao - Get FoodType with name = HALF BOARD and id = 3
+DEBUG main org.courses.tour.dao.TransportDao - Get Transport with name = Airplane and id = 1
+DEBUG main org.courses.tour.dao.CityDao$CityTransportDao - Get all entity size = 3
+DEBUG main org.courses.tour.dao.CityDao$CityTransportDao - Get all entity size = 1
+DEBUG main org.courses.tour.dao.CityDao$CityTransportDao - Get all entity size = 2
+DEBUG main org.courses.tour.dao.CityDao$CityTransportDao - Get all entity size = 1
+DEBUG main org.courses.tour.dao.CityDao$CityTransportDao - Get all entity size = 0
+DEBUG main org.courses.tour.dao.FoodTypeDao - Get FoodType with name = BED AND BREAKFAST and id = 4
+DEBUG main org.courses.tour.dao.TransportDao - Get Transport with name = Airplane and id = 1
+DEBUG main org.courses.tour.dao.CityDao$CityTransportDao - Get all entity size = 3
+DEBUG main org.courses.tour.dao.CityDao$CityTransportDao - Get all entity size = 2
+DEBUG main org.courses.tour.dao.FoodTypeDao - Get FoodType with name = BED AND BREAKFAST and id = 4
+DEBUG main org.courses.tour.dao.TransportDao - Get Transport with name = Airplane and id = 1
+DEBUG main org.courses.tour.dao.CityDao$CityTransportDao - Get all entity size = 0
+DEBUG main org.courses.tour.dao.FoodTypeDao - Get FoodType with name = ALL INCLUSIVE and id = 1
+DEBUG main org.courses.tour.dao.TransportDao - Get Transport with name = Ship and id = 4
+DEBUG main org.courses.tour.dao.CityDao$CityTransportDao - Get all entity size = 3
+DEBUG main org.courses.tour.dao.CityDao$CityTransportDao - Get all entity size = 1
+DEBUG main org.courses.tour.dao.FoodTypeDao - Get FoodType with name = FULL BOARD and id = 2
+DEBUG main org.courses.tour.dao.TransportDao - Get Transport with name = Airplane and id = 1
+DEBUG main org.courses.tour.dao.CityDao$CityTransportDao - Get all entity size = 3
+DEBUG main org.courses.tour.dao.CityDao$CityTransportDao - Get all entity size = 1
+DEBUG main org.courses.tour.dao.CityDao$CityTransportDao - Get all entity size = 2
+DEBUG main org.courses.tour.dao.CityDao$CityTransportDao - Get all entity size = 1
+DEBUG main org.courses.tour.dao.CityDao$CityTransportDao - Get all entity size = 0
+DEBUG main org.courses.tour.dao.CityDao$CityTransportDao - Get all entity size = 0
+DEBUG main org.courses.tour.dao.FoodTypeDao - Get FoodType with name = HALF BOARD and id = 3
+DEBUG main org.courses.tour.dao.TransportDao - Get Transport with name = Airplane and id = 1
+DEBUG main org.courses.tour.dao.CityDao$CityTransportDao - Get all entity size = 3
+DEBUG main org.courses.tour.dao.CityDao$CityTransportDao - Get all entity size = 1
+DEBUG main org.courses.tour.dao.CityDao$CityTransportDao - Get all entity size = 2
+DEBUG main org.courses.tour.dao.CityDao$CityTransportDao - Get all entity size = 1
+DEBUG main org.courses.tour.dao.CityDao$CityTransportDao - Get all entity size = 0
+DEBUG main org.courses.tour.dao.FoodTypeDao - Get FoodType with name = BED AND BREAKFAST and id = 4
+DEBUG main org.courses.tour.dao.TransportDao - Get Transport with name = Airplane and id = 1
+DEBUG main org.courses.tour.dao.CityDao$CityTransportDao - Get all entity size = 3
+DEBUG main org.courses.tour.dao.CityDao$CityTransportDao - Get all entity size = 2
+DEBUG main org.courses.tour.dao.FoodTypeDao - Get FoodType with name = BED AND BREAKFAST and id = 4
+DEBUG main org.courses.tour.dao.TransportDao - Get Transport with name = Airplane and id = 1
+DEBUG main org.courses.tour.dao.CityDao$CityTransportDao - Get all entity size = 0
+DEBUG main org.courses.tour.dao.FoodTypeDao - Get FoodType with name = ALL INCLUSIVE and id = 1
+DEBUG main org.courses.tour.dao.TransportDao - Get Transport with name = Ship and id = 4
+DEBUG main org.courses.tour.dao.CityDao$CityTransportDao - Get all entity size = 3
+DEBUG main org.courses.tour.dao.CityDao$CityTransportDao - Get all entity size = 1
+DEBUG main org.courses.tour.dao.FoodTypeDao - Get FoodType with name = FULL BOARD and id = 2
+DEBUG main org.courses.tour.dao.TransportDao - Get Transport with name = Airplane and id = 1
+DEBUG main org.courses.tour.dao.CityDao$CityTransportDao - Get all entity size = 3
+DEBUG main org.courses.tour.dao.CityDao$CityTransportDao - Get all entity size = 1
+DEBUG main org.courses.tour.dao.CityDao$CityTransportDao - Get all entity size = 2
+DEBUG main org.courses.tour.dao.CityDao$CityTransportDao - Get all entity size = 1
+DEBUG main org.courses.tour.dao.CityDao$CityTransportDao - Get all entity size = 0
+DEBUG main org.courses.tour.dao.CityDao$CityTransportDao - Get all entity size = 0
+DEBUG main org.courses.tour.dao.FoodTypeDao - Get FoodType with name = HALF BOARD and id = 3
+DEBUG main org.courses.tour.dao.TransportDao - Get Transport with name = Airplane and id = 1
+DEBUG main org.courses.tour.dao.CityDao$CityTransportDao - Get all entity size = 3
+DEBUG main org.courses.tour.dao.CityDao$CityTransportDao - Get all entity size = 1
+DEBUG main org.courses.tour.dao.CityDao$CityTransportDao - Get all entity size = 2
+DEBUG main org.courses.tour.dao.CityDao$CityTransportDao - Get all entity size = 1
+DEBUG main org.courses.tour.dao.CityDao$CityTransportDao - Get all entity size = 0
+DEBUG main org.courses.tour.dao.FoodTypeDao - Get FoodType with name = BED AND BREAKFAST and id = 4
+DEBUG main org.courses.tour.dao.TransportDao - Get Transport with name = Airplane and id = 1
+DEBUG main org.courses.tour.dao.CityDao$CityTransportDao - Get all entity size = 3
+DEBUG main org.courses.tour.dao.CityDao$CityTransportDao - Get all entity size = 2
+DEBUG main org.courses.tour.dao.FoodTypeDao - Get FoodType with name = BED AND BREAKFAST and id = 4
+DEBUG main org.courses.tour.dao.TransportDao - Get Transport with name = Airplane and id = 1
+DEBUG main org.courses.tour.dao.CityDao$CityTransportDao - Get all entity size = 0
+DEBUG main org.courses.tour.dao.FoodTypeDao - Get FoodType with name = ALL INCLUSIVE and id = 1
+DEBUG main org.courses.tour.dao.TransportDao - Get Transport with name = Ship and id = 4
+DEBUG main org.courses.tour.dao.CityDao$CityTransportDao - Get all entity size = 3
+DEBUG main org.courses.tour.dao.CityDao$CityTransportDao - Get all entity size = 1
+DEBUG main org.courses.tour.dao.FoodTypeDao - Get FoodType with name = FULL BOARD and id = 2
+DEBUG main org.courses.tour.dao.TransportDao - Get Transport with name = Airplane and id = 1
+DEBUG main org.courses.tour.dao.CityDao$CityTransportDao - Get all entity size = 3
+DEBUG main org.courses.tour.dao.CityDao$CityTransportDao - Get all entity size = 1
+DEBUG main org.courses.tour.dao.CityDao$CityTransportDao - Get all entity size = 2
+DEBUG main org.courses.tour.dao.CityDao$CityTransportDao - Get all entity size = 1
+DEBUG main org.courses.tour.dao.CityDao$CityTransportDao - Get all entity size = 0
+DEBUG main org.courses.tour.dao.CityDao$CityTransportDao - Get all entity size = 0
+DEBUG main org.courses.tour.dao.FoodTypeDao - Get FoodType with name = HALF BOARD and id = 3
+DEBUG main org.courses.tour.dao.TransportDao - Get Transport with name = Airplane and id = 1
+DEBUG main org.courses.tour.dao.CityDao$CityTransportDao - Get all entity size = 3
+DEBUG main org.courses.tour.dao.CityDao$CityTransportDao - Get all entity size = 1
+DEBUG main org.courses.tour.dao.CityDao$CityTransportDao - Get all entity size = 2
+DEBUG main org.courses.tour.dao.CityDao$CityTransportDao - Get all entity size = 1
+DEBUG main org.courses.tour.dao.CityDao$CityTransportDao - Get all entity size = 0
+DEBUG main org.courses.tour.dao.FoodTypeDao - Get FoodType with name = BED AND BREAKFAST and id = 4
+DEBUG main org.courses.tour.dao.TransportDao - Get Transport with name = Airplane and id = 1
+DEBUG main org.courses.tour.dao.CityDao$CityTransportDao - Get all entity size = 3
+DEBUG main org.courses.tour.dao.CityDao$CityTransportDao - Get all entity size = 2
+DEBUG main org.courses.tour.dao.FoodTypeDao - Get FoodType with name = BED AND BREAKFAST and id = 4
+DEBUG main org.courses.tour.dao.TransportDao - Get Transport with name = Airplane and id = 1
+DEBUG main org.courses.tour.dao.CityDao$CityTransportDao - Get all entity size = 0
+DEBUG main org.courses.tour.dao.FoodTypeDao - Get FoodType with name = ALL INCLUSIVE and id = 1
+DEBUG main org.courses.tour.dao.TransportDao - Get Transport with name = Ship and id = 4
+DEBUG main org.courses.tour.dao.CityDao$CityTransportDao - Get all entity size = 3
+DEBUG main org.courses.tour.dao.CityDao$CityTransportDao - Get all entity size = 1
+DEBUG main org.courses.tour.dao.FoodTypeDao - Get FoodType with name = FULL BOARD and id = 2
+DEBUG main org.courses.tour.dao.TransportDao - Get Transport with name = Airplane and id = 1
+DEBUG main org.courses.tour.dao.CityDao$CityTransportDao - Get all entity size = 3
+DEBUG main org.courses.tour.dao.CityDao$CityTransportDao - Get all entity size = 1
+DEBUG main org.courses.tour.dao.CityDao$CityTransportDao - Get all entity size = 2
+DEBUG main org.courses.tour.dao.CityDao$CityTransportDao - Get all entity size = 1
+DEBUG main org.courses.tour.dao.CityDao$CityTransportDao - Get all entity size = 0
+DEBUG main org.courses.tour.dao.CityDao$CityTransportDao - Get all entity size = 0
+DEBUG main org.courses.tour.dao.FoodTypeDao - Get FoodType with name = HALF BOARD and id = 3
+DEBUG main org.courses.tour.dao.TransportDao - Get Transport with name = Airplane and id = 1
+DEBUG main org.courses.tour.dao.CityDao$CityTransportDao - Get all entity size = 3
+DEBUG main org.courses.tour.dao.CityDao$CityTransportDao - Get all entity size = 1
+DEBUG main org.courses.tour.dao.CityDao$CityTransportDao - Get all entity size = 2
+DEBUG main org.courses.tour.dao.CityDao$CityTransportDao - Get all entity size = 1
+DEBUG main org.courses.tour.dao.CityDao$CityTransportDao - Get all entity size = 0
+DEBUG main org.courses.tour.dao.FoodTypeDao - Get FoodType with name = BED AND BREAKFAST and id = 4
+DEBUG main org.courses.tour.dao.TransportDao - Get Transport with name = Airplane and id = 1
+DEBUG main org.courses.tour.dao.CityDao$CityTransportDao - Get all entity size = 3
+DEBUG main org.courses.tour.dao.CityDao$CityTransportDao - Get all entity size = 2
+DEBUG main org.courses.tour.dao.FoodTypeDao - Get FoodType with name = BED AND BREAKFAST and id = 4
+DEBUG main org.courses.tour.dao.TransportDao - Get Transport with name = Airplane and id = 1
+DEBUG main org.courses.tour.dao.CityDao$CityTransportDao - Get all entity size = 0
+DEBUG main org.courses.tour.dao.FoodTypeDao - Get FoodType with name = ALL INCLUSIVE and id = 1
+DEBUG main org.courses.tour.dao.TransportDao - Get Transport with name = Ship and id = 4
+DEBUG main org.courses.tour.dao.CityDao$CityTransportDao - Get all entity size = 3
+DEBUG main org.courses.tour.dao.CityDao$CityTransportDao - Get all entity size = 1
+DEBUG main org.courses.tour.dao.FoodTypeDao - Get FoodType with name = FULL BOARD and id = 2
+DEBUG main org.courses.tour.dao.TransportDao - Get Transport with name = Airplane and id = 1
+DEBUG main org.courses.tour.dao.CityDao$CityTransportDao - Get all entity size = 3
+DEBUG main org.courses.tour.dao.CityDao$CityTransportDao - Get all entity size = 1
+DEBUG main org.courses.tour.dao.CityDao$CityTransportDao - Get all entity size = 2
+DEBUG main org.courses.tour.dao.CityDao$CityTransportDao - Get all entity size = 1
+DEBUG main org.courses.tour.dao.CityDao$CityTransportDao - Get all entity size = 0
+DEBUG main org.courses.tour.dao.CityDao$CityTransportDao - Get all entity size = 0
+DEBUG main org.courses.tour.dao.FoodTypeDao - Get FoodType with name = HALF BOARD and id = 3
+DEBUG main org.courses.tour.dao.TransportDao - Get Transport with name = Airplane and id = 1
+DEBUG main org.courses.tour.dao.CityDao$CityTransportDao - Get all entity size = 3
+DEBUG main org.courses.tour.dao.CityDao$CityTransportDao - Get all entity size = 1
+DEBUG main org.courses.tour.dao.CityDao$CityTransportDao - Get all entity size = 2
+DEBUG main org.courses.tour.dao.CityDao$CityTransportDao - Get all entity size = 1
+DEBUG main org.courses.tour.dao.CityDao$CityTransportDao - Get all entity size = 0
+DEBUG main org.courses.tour.dao.FoodTypeDao - Get FoodType with name = BED AND BREAKFAST and id = 4
+DEBUG main org.courses.tour.dao.TransportDao - Get Transport with name = Airplane and id = 1
+DEBUG main org.courses.tour.dao.CityDao$CityTransportDao - Get all entity size = 3
+DEBUG main org.courses.tour.dao.CityDao$CityTransportDao - Get all entity size = 2
+DEBUG main org.courses.tour.dao.FoodTypeDao - Get FoodType with name = BED AND BREAKFAST and id = 4
+DEBUG main org.courses.tour.dao.TransportDao - Get Transport with name = Airplane and id = 1
+DEBUG main org.courses.tour.dao.CityDao$CityTransportDao - Get all entity size = 0
+DEBUG main org.courses.tour.dao.FoodTypeDao - Get FoodType with name = ALL INCLUSIVE and id = 1
+DEBUG main org.courses.tour.dao.TransportDao - Get Transport with name = Ship and id = 4
+DEBUG main org.courses.tour.dao.CityDao$CityTransportDao - Get all entity size = 3
+DEBUG main org.courses.tour.dao.CityDao$CityTransportDao - Get all entity size = 1
+DEBUG main org.courses.tour.dao.FoodTypeDao - Get FoodType with name = FULL BOARD and id = 2
+DEBUG main org.courses.tour.dao.TransportDao - Get Transport with name = Airplane and id = 1
+DEBUG main org.courses.tour.dao.CityDao$CityTransportDao - Get all entity size = 3
+DEBUG main org.courses.tour.dao.CityDao$CityTransportDao - Get all entity size = 1
+DEBUG main org.courses.tour.dao.CityDao$CityTransportDao - Get all entity size = 2
+DEBUG main org.courses.tour.dao.CityDao$CityTransportDao - Get all entity size = 1
+DEBUG main org.courses.tour.dao.CityDao$CityTransportDao - Get all entity size = 0
+DEBUG main org.courses.tour.dao.CityDao$CityTransportDao - Get all entity size = 0
+DEBUG main org.courses.tour.dao.FoodTypeDao - Get FoodType with name = HALF BOARD and id = 3
+DEBUG main org.courses.tour.dao.TransportDao - Get Transport with name = Airplane and id = 1
+DEBUG main org.courses.tour.dao.CityDao$CityTransportDao - Get all entity size = 3
+DEBUG main org.courses.tour.dao.CityDao$CityTransportDao - Get all entity size = 1
+DEBUG main org.courses.tour.dao.CityDao$CityTransportDao - Get all entity size = 2
+DEBUG main org.courses.tour.dao.CityDao$CityTransportDao - Get all entity size = 1
+DEBUG main org.courses.tour.dao.CityDao$CityTransportDao - Get all entity size = 0
+DEBUG main org.courses.tour.dao.FoodTypeDao - Get FoodType with name = BED AND BREAKFAST and id = 4
+DEBUG main org.courses.tour.dao.TransportDao - Get Transport with name = Airplane and id = 1
+DEBUG main org.courses.tour.dao.CityDao$CityTransportDao - Get all entity size = 3
+DEBUG main org.courses.tour.dao.CityDao$CityTransportDao - Get all entity size = 2
+DEBUG main org.courses.tour.dao.FoodTypeDao - Get FoodType with name = BED AND BREAKFAST and id = 4
+DEBUG main org.courses.tour.dao.TransportDao - Get Transport with name = Airplane and id = 1
+DEBUG main org.courses.tour.dao.CityDao$CityTransportDao - Get all entity size = 0
+DEBUG main org.courses.tour.dao.FoodTypeDao - Get FoodType with name = ALL INCLUSIVE and id = 1
+DEBUG main org.courses.tour.dao.TransportDao - Get Transport with name = Ship and id = 4
+DEBUG main org.courses.tour.dao.CityDao$CityTransportDao - Get all entity size = 3
+DEBUG main org.courses.tour.dao.CityDao$CityTransportDao - Get all entity size = 1
+DEBUG main org.courses.tour.dao.FoodTypeDao - Get FoodType with name = FULL BOARD and id = 2
+DEBUG main org.courses.tour.dao.TransportDao - Get Transport with name = Airplane and id = 1
+DEBUG main org.courses.tour.dao.CityDao$CityTransportDao - Get all entity size = 3
+DEBUG main org.courses.tour.dao.CityDao$CityTransportDao - Get all entity size = 1
+DEBUG main org.courses.tour.dao.CityDao$CityTransportDao - Get all entity size = 2
+DEBUG main org.courses.tour.dao.CityDao$CityTransportDao - Get all entity size = 1
+DEBUG main org.courses.tour.dao.CityDao$CityTransportDao - Get all entity size = 0
+DEBUG main org.courses.tour.dao.CityDao$CityTransportDao - Get all entity size = 0
+DEBUG main org.courses.tour.dao.FoodTypeDao - Get FoodType with name = HALF BOARD and id = 3
+DEBUG main org.courses.tour.dao.TransportDao - Get Transport with name = Airplane and id = 1
+DEBUG main org.courses.tour.dao.CityDao$CityTransportDao - Get all entity size = 3
+DEBUG main org.courses.tour.dao.CityDao$CityTransportDao - Get all entity size = 1
+DEBUG main org.courses.tour.dao.CityDao$CityTransportDao - Get all entity size = 2
+DEBUG main org.courses.tour.dao.CityDao$CityTransportDao - Get all entity size = 1
+DEBUG main org.courses.tour.dao.CityDao$CityTransportDao - Get all entity size = 0
+DEBUG main org.courses.tour.dao.FoodTypeDao - Get FoodType with name = BED AND BREAKFAST and id = 4
+DEBUG main org.courses.tour.dao.TransportDao - Get Transport with name = Airplane and id = 1
+DEBUG main org.courses.tour.dao.CityDao$CityTransportDao - Get all entity size = 3
+DEBUG main org.courses.tour.dao.CityDao$CityTransportDao - Get all entity size = 2
+DEBUG main org.courses.tour.dao.FoodTypeDao - Get FoodType with name = BED AND BREAKFAST and id = 4
+DEBUG main org.courses.tour.dao.TransportDao - Get Transport with name = Airplane and id = 1
+DEBUG main org.courses.tour.dao.CityDao$CityTransportDao - Get all entity size = 0
+DEBUG main org.courses.tour.dao.FoodTypeDao - Get FoodType with name = ALL INCLUSIVE and id = 1
+DEBUG main org.courses.tour.dao.TransportDao - Get Transport with name = Ship and id = 4
+DEBUG main org.courses.tour.dao.CityDao$CityTransportDao - Get all entity size = 3
+DEBUG main org.courses.tour.dao.CityDao$CityTransportDao - Get all entity size = 1
+DEBUG main org.courses.tour.dao.FoodTypeDao - Get FoodType with name = FULL BOARD and id = 2
+DEBUG main org.courses.tour.dao.TransportDao - Get Transport with name = Airplane and id = 1
+DEBUG main org.courses.tour.dao.CityDao$CityTransportDao - Get all entity size = 3
+DEBUG main org.courses.tour.dao.CityDao$CityTransportDao - Get all entity size = 1
+DEBUG main org.courses.tour.dao.CityDao$CityTransportDao - Get all entity size = 2
+DEBUG main org.courses.tour.dao.CityDao$CityTransportDao - Get all entity size = 1
+DEBUG main org.courses.tour.dao.CityDao$CityTransportDao - Get all entity size = 0
+DEBUG main org.courses.tour.dao.CityDao$CityTransportDao - Get all entity size = 0
+DEBUG main org.courses.tour.dao.FoodTypeDao - Get FoodType with name = HALF BOARD and id = 3
+DEBUG main org.courses.tour.dao.TransportDao - Get Transport with name = Airplane and id = 1
+DEBUG main org.courses.tour.dao.CityDao$CityTransportDao - Get all entity size = 3
+DEBUG main org.courses.tour.dao.CityDao$CityTransportDao - Get all entity size = 1
+DEBUG main org.courses.tour.dao.CityDao$CityTransportDao - Get all entity size = 2
+DEBUG main org.courses.tour.dao.CityDao$CityTransportDao - Get all entity size = 1
+DEBUG main org.courses.tour.dao.CityDao$CityTransportDao - Get all entity size = 0
+DEBUG main org.courses.tour.dao.FoodTypeDao - Get FoodType with name = BED AND BREAKFAST and id = 4
+DEBUG main org.courses.tour.dao.TransportDao - Get Transport with name = Airplane and id = 1
+DEBUG main org.courses.tour.dao.CityDao$CityTransportDao - Get all entity size = 3
+DEBUG main org.courses.tour.dao.CityDao$CityTransportDao - Get all entity size = 2
+DEBUG main org.courses.tour.dao.FoodTypeDao - Get FoodType with name = BED AND BREAKFAST and id = 4
+DEBUG main org.courses.tour.dao.TransportDao - Get Transport with name = Airplane and id = 1
+DEBUG main org.courses.tour.dao.CityDao$CityTransportDao - Get all entity size = 0
+ERROR main org.courses.tour.dao.AbstractDao - Exception while create entity
+ERROR main org.courses.tour.dao.AbstractDao - Exception while create entity
+ERROR main org.courses.tour.dao.AbstractDao - Exception while create entity
+ERROR main org.courses.tour.dao.AbstractDao - Exception while create entity
+ERROR main org.courses.tour.dao.AbstractDao - Exception while create entity
+ERROR main org.courses.tour.dao.AbstractDao - Exception while create entity
+ERROR main org.courses.tour.dao.AbstractDao - Exception while create entity
+ERROR main org.courses.tour.dao.AbstractDao - Exception while create entity
+ERROR main org.courses.tour.dao.AbstractDao - Exception while create entity
+ERROR main org.courses.tour.dao.AbstractDao - Exception while create entity
+ERROR main org.courses.tour.dao.AbstractDao - Exception while create entity
+ERROR main org.courses.tour.dao.AbstractDao - Exception while create entity
+ERROR main org.courses.tour.dao.AbstractDao - Exception while create entity
+ERROR main org.courses.tour.dao.AbstractDao - Exception while create entity
+ERROR main org.courses.tour.dao.AbstractDao - Exception while create entity
+ERROR main org.courses.tour.dao.AbstractDao - Exception while create entity
+ERROR main org.courses.tour.dao.AbstractDao - Exception while create entity
+ERROR main org.courses.tour.dao.AbstractDao - Exception while create entity
+ERROR main org.courses.tour.dao.AbstractDao - Exception while create entity
+ERROR main org.courses.tour.dao.AbstractDao - Exception while create entity
+ERROR main org.courses.tour.dao.AbstractDao - Exception while create entity
+DEBUG main org.courses.tour.dao.TourTypeDao - Try update entity = Fuck tour idEntity = 7 where id =7
+ERROR main org.courses.tour.dao.AbstractDao - Exception while create entity
+DEBUG main org.courses.tour.dao.TourTypeDao - Try update entity = Fuck tour idEntity = 7 where id =7

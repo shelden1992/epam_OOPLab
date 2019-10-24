@@ -1,11 +1,13 @@
 package org.courses.tour.entity;
 
-public class Food_type {
+import java.util.StringJoiner;
+
+public class FoodType {
     private int idFoodType;
     private String name;
     private double coeficient;
 
-    public Food_type(int idFoodType, String name, double coeficient) {
+    public FoodType(int idFoodType, String name, double coeficient) {
         this.idFoodType = idFoodType;
         this.name = name;
         this.coeficient = coeficient;
@@ -33,5 +35,14 @@ public class Food_type {
 
     public void setCoeficient(double coeficient) {
         this.coeficient = coeficient;
+    }
+
+    @Override
+    public String toString() {
+        return new StringJoiner(", ", FoodType.class.getSimpleName() + "[", "]")
+                .add("idFoodType=" + idFoodType)
+                .add("name='" + name + "'")
+                .add("coeficient=" + coeficient)
+                .toString();
     }
 }

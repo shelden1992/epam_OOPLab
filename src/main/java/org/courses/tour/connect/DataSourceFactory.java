@@ -54,7 +54,7 @@ public class DataSourceFactory {
 
     }
 
-    public static PreparedStatement gerPreparedStatement(String query) {
+    public static PreparedStatement getPreparedStatement(String query) {
         PreparedStatement preparedStatement = null;
         try {
             preparedStatement = getConnection().prepareStatement(query);
