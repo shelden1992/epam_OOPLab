@@ -1,6 +1,7 @@
 package org.courses.tour.entity;
 
 import java.util.List;
+import java.util.StringJoiner;
 
 public class City {
     private String nameCity;
@@ -27,6 +28,15 @@ public class City {
 
     public void setDistance(double distance) {
         this.distance = distance;
+    }
+
+    @Override
+    public String toString() {
+        return new StringJoiner(", ", City.class.getSimpleName() + "[", "]")
+                .add("nameCity='" + nameCity + "'")
+                .add("distance=" + distance)
+                .add("transports=" + transports)
+                .toString();
     }
 
     public List<Transport> getTransports() {
